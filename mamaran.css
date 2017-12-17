@@ -1,0 +1,118 @@
+body {
+	background-image: url("03.jpg");
+	background-position: fixed;
+}
+
+img {
+	margin-bottom: -130px;
+	width: 1000px;
+	height: 350px;
+	margin-top: -110px;
+}
+
+nav {
+	background-color: black;
+	color: white;
+	font-family: payback;
+	font-size: 30px;
+	height: 50px;
+}
+
+ul{
+	list-style-type: none;
+    overflow: hidden;
+    margin-left: 280px;
+}
+
+li {
+	display: inline-block;
+	padding: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: gray;
+	padding: 8px;
+	font-size: 30px;
+	font-family: payback;
+}
+
+@font-face {
+    font-family: payback;
+    src: url(01.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(03.otf) format("truetype");
+}
+
+@font-face {
+    font-family: justice;
+    src: url(02.ttf) format("truetype");
+}
+		
+aside {
+	color: white;
+	font-size: 30px;
+	font-family: bebas;
+}
+
+article {
+	color: white;
+	font-size: 30px;
+	font-family: bebas;
+}
+
+section {
+	color: white;
+	font-size: 30px;
+	font-family: bebas;
+}
+
+time {
+	color: white;
+	font-size: 30px;
+	font-family: bebas;
+}
+
+footer {
+	color: white;
+	font-size: 20px;
+	font-family: justice;
+	text-align: center;
+}
+
+p {
+	color: white;
+	font-size: 30px;
+	font-family: bebas;
+	text-align: center;
+}
+
+h1 {
+	color: tomato;
+	margin-top: -10px;
+	font-size: 60px;
+	text-align: center;
+	font-family: bebas;
+}
+
+h2 {
+	color: mediumseagreen;
+	font-size: 60px;
+	text-align: center;
+	font-family: bebas;
+	margin-top: -10px;
+}
+
+button {
+	background-color: dodgerblue;
+	font-size: 30px;
+	font-family: justice;
+	padding: 30px;
+}
